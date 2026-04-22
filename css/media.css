@@ -1,0 +1,53 @@
+@media (max-width: 1199px) {
+  .aboutus-container-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 991px) {
+  .hero-inner {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 767px) {
+  .mid-block,
+  .header-btn {
+    display: none;
+  }
+
+  .header-burger {
+    display: block;
+  }
+
+  .img-text {
+    flex-direction: column;
+  }
+
+  .img-content {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .aboutus-container-section {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-continer {
+    grid-template-columns:  1fr;
+    gap:20px;
+    
+  }
+  .solutions{
+     font-size: 28px;
+    line-height: 1.2;
+  }
+  .solutions,
+  .menu,
+  .category {
+    padding:2rem 1rem;
+    
+  }
+
+ 
+}
