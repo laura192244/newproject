@@ -2,11 +2,31 @@
   .aboutus-container-section {
     grid-template-columns: repeat(2, 1fr);
   }
+  .solutions{
+     font-size: 28px;
+    line-height: 1.2;
+  }
+  
+  .footer-continer {
+    grid-template-columns:  1fr;
+    gap:20px;
+    
+  }
 }
 
 @media (max-width: 991px) {
   .hero-inner {
     flex-direction: column;
+  }
+   .solutions{
+     font-size: 28px;
+    line-height: 1.2;
+  }
+  
+  .footer-continer {
+    grid-template-columns:  1fr;
+    gap:20px;
+    
   }
 }
 
@@ -31,6 +51,7 @@
 
   .aboutus-container-section {
     grid-template-columns: 1fr;
+     justify-items: center;
   }
 
   .footer-continer {
