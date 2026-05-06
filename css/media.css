@@ -2,34 +2,52 @@
   .aboutus-container-section {
     grid-template-columns: repeat(2, 1fr);
   }
-  .solutions{
-     font-size: 28px;
+  .solutions {
+    font-size: 28px;
     line-height: 1.2;
   }
-  
-  .footer-continer {
-    grid-template-columns:  1fr;
-    gap:20px;
-    
-  }
-}
 
+  .footer-continer {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .beliefs-buld-boxs{
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    min-height: 500px;
+  }
+  
+}
 @media (max-width: 991px) {
   .hero-inner {
     flex-direction: column;
   }
-   .solutions{
-     font-size: 28px;
+  .solutions {
+    font-size: 28px;
     line-height: 1.2;
   }
-  
   .footer-continer {
-    grid-template-columns:  1fr;
-    gap:20px;
-    
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
+  .beliefs-buld-boxs{
+  grid-template-columns: 1fr;
+  gap:20px;
+  width: 100%;
 }
-
+.build {
+  max-width: 100%;
+  text-align: center;
+  min-height: 700px;  
+ }
+  .build h4{
+  text-align: center;
+  font-size: 13px;
+  }
+  .feature-work{
+   width: 100%;
+}
+}
 @media (max-width: 767px) {
   .mid-block,
   .header-btn {
@@ -49,26 +67,71 @@
     gap: 20px;
   }
 
-  .aboutus-container-section {
-    grid-template-columns: 1fr;
-     justify-items: center;
+  .hero-title {
+    font-size: 32px;
   }
 
-  .footer-continer {
-    grid-template-columns:  1fr;
-    gap:20px;
-    
+  /*  */
+
+  .aboutus-container {
+    padding: 20px;
   }
-  .solutions{
-     font-size: 28px;
+  .aboutus-container-section {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .aboutus-box {
+    margin: 0;
+    padding: 20px;
+  }
+  .aboutus-box.box-title {
+    margin: 0;
+  }
+  .footer-continer {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .solutions {
+    font-size: 28px;
     line-height: 1.2;
   }
   .solutions,
   .menu,
   .category {
-    padding:2rem 1rem;
-    
+    padding: 2rem 1rem;
   }
-
- 
+  .main-img {
+    width: 100%;
+  }
+  .beliefs-buld-boxs{
+   grid-template-columns: 1fr;
+   gap:25px;
+   width: 100%;
+}
+.beliefs {
+   text-align: center;
+   min-height: 700px;
+   margin-left: 35px;
+  }
+/* feature-work */
+.feature-work{
+   width: 100%;
+}
+.feature-work-text{
+   font-size: 32px;
+   line-height: 1.2;
+}
+.feature-work-texts{
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  }
+.feature-work-text4{
+   align-self:center;
+   margin-left: 0px;
+}
+.feature-work-text5{
+align-self:center;
+ margin-left: 100px; 
+}
 }
