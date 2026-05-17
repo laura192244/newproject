@@ -209,8 +209,32 @@
         </section>
         
     </main>
+    <div id ="overlay"></div>
+   
+    <!-- Modal -->
+     <div id ="modal">
+      <button id="close-menu">X</button>
+      <h2 class="modal-header-logo">Creative Logo</h2>
+      <p>Contact us now? Want to send us a feedback?</p>
+      <div class="modal-part">
+      <div>
+        <label for="text">Your Name</label><br>
+      <input id="f-name" type="text" placeholder="Your Name"/>
+        </div>
+      <div>
+        <label for=" email">Your email</label><br>
+        <input id="f-email" type="email" placeholder="Your email"/>
+      </div>
+      <div>
+        <label for="f-msg"> Your Message</label> <br>
+      <textarea id="f-msg" placeholder="Your Message"></textarea>
+    </div>
+     <button id ="send-btn">Send Message</button>
+      <p id="success-msg">Done</p>
+     </div>
+     </div>
+```
      <footer>
-      
         <div id="contact"  class="footer-continer">
           <div class="solutions">Design Solutions
             <ul class="icons">
@@ -224,8 +248,7 @@
             <li class="menu-li"><a href="#">Home</a></li>
             <li class="menu-li"><a href="#">Popular</a></li>
             <li class="menu-li"><a href="#aboutus">About</a></li>
-            <li class="menu-li"><a href="#contact">Contact</a></li>
-            
+            <li class="menu-li"><a href="#contact">Contact</a></li> 
           </ul>
             </div>
             <div class="category "><h4 class="footer-h4">Category</h4>
@@ -235,12 +258,9 @@
                 <li class="category-li">View all</li>
                 <li class="category-li">Log in</li>
               </ul>
-            </div>
-          
+            </div>  
         </div>
-     
     </footer>
-
     <script src="/js/index.js"></script>
   </body>
 </html>
